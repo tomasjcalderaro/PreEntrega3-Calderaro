@@ -1,0 +1,18 @@
+$color-navbar: gray;
+
+$estilo-letra: 'Roboto Condensed', sans-serif;
+
+$margen: 50px; 
+$color: black;
+
+@mixin tamanos($ancho,$alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+
+%parrafo {
+    font-family: $estilo-letra;
+    color: $color;
+
+}

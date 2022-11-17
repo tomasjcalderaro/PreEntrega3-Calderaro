@@ -1,0 +1,23 @@
+.perfil {
+    background: #4d4dc2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: left;
+    margin-top: 40px;
+    color:#140d0c ;
+    .perfil2{
+        background: #02020a;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        display: flex;
+        justify-content: left;
+        margin-top: 40px;
+        color:#4d4dc2;
+}
+}
+
+.carousel-inner {
+    display: flex;
+    margin-top: 50px;
+}
