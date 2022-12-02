@@ -6,9 +6,9 @@
 body {
   display: block;
   text-align: center;
-  background: #02020a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1CB5E0, #000046); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #005AA7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar {
@@ -23,10 +23,12 @@ body {
   margin-top: 100px;
 }
 .container__footer .iconofb {
+  display: flex;
   width: 40px;
   height: 40px;
 }
 .container__footer .iconotwitter {
+  display: flex;
   width: 40px;
   height: 40px;
 }
@@ -235,5 +237,28 @@ h4 {
   display: flex;
   margin-top: 50px;
 }
+.space {
+  display: flex;
+  justify-content: center;
+  
+}
+.carta {
+  display: flex;
+  padding: 80px;
+}
+.tracing {
+  display: flex;
+  padding: 100px;
+}
+.multiplayer {
+  display: flex;
+  padding: 80px;
+  justify-content: center;
+}
 
+.multiplayer2 {
+  display: flex;
+  justify-content: right;
+  padding: 40px;
+}
 /*# sourceMappingURL=style.css.map */
